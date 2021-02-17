@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/NilsonKr/Jest-Course/issues"
   },
-  "homepage": "https://github.com/NilsonKr/Jest-Course#readme"
+  "homepage": "https://github.com/NilsonKr/Jest-Course#readme",
+  "devDependencies": {
+    "@babel/core": "7.12.16",
+    "@babel/plugin-transform-runtime": "7.12.15",
+    "@babel/preset-env": "7.12.16",
+    "babel-jest": "^26.6.3"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.12.13",
+    "@types/jest": "^26.0.20"
+  }
 }
