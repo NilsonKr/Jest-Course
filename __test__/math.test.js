@@ -1,4 +1,4 @@
-import { sum , mult, rest , div} from '../src/maths/math.js'
+import { sum , mult, rest , div} from '../src/math.js'
 
  describe('Test for maths calcs', () => {
      test('Test Sum', () =>{

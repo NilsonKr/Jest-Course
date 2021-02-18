@@ -1,4 +1,4 @@
-import { sum } from '../src/maths/math.js';
+import { sum } from '../src/math.js';
 
 describe('Testing With Number Operations', () => {
     test('Test Greater than', () => {
