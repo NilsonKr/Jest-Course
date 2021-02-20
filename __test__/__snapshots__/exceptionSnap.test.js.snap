@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Handle exceptions on the snapshots Always will failed : Always failed 1`] = `
+Object {
+  "date": 2021-02-20T06:22:02.466Z,
+  "id": 0,
+}
+`;
+
+exports[`Handle exceptions on the snapshots Handle Exceptions 1`] = `
+Object {
+  "createAt": Any<Date>,
+  "id": Any<Number>,
+  "name": "Nilson Diaz",
+}
+`;
